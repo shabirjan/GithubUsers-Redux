@@ -10,6 +10,7 @@ import UIKit
 
 class UserDetailViewController: UIViewController {
 
+    
     struct Props {
         let name: String
         let onDestroy: Command?
@@ -39,7 +40,6 @@ class UserDetailViewController: UIViewController {
             view.setNeedsLayout()
         }
     }
-    
     
     @IBOutlet weak var lblPublicRepos: UILabel!
     @IBOutlet weak var lblPublicGist: UILabel!
@@ -104,6 +104,7 @@ class UserDetailViewController: UIViewController {
         }
         
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -112,11 +113,9 @@ class UserDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     deinit {
         props.onDestroy?.perform()
     }
-
 }
 
 extension UserDetailViewController {
@@ -131,6 +130,9 @@ extension UserDetailViewController {
             }
             
         }
-         cancelObserving = store.observe(with: observer.dispatched(on: .main))
+        cancelObserving = store.observe(with: observer.dispatched(on: .main))
     }
 }
+
+
+

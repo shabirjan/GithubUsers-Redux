@@ -6,6 +6,8 @@
 //  Copyright © 2018 Shabir Jan. All rights reserved.
 //
 
+
+
 import Foundation
 
 func selectUser(user: User, getURL: @escaping (URL) -> Future<UserDetail> = getURL) -> CommandWith<Dispatcher> {
@@ -16,3 +18,4 @@ func selectUser(user: User, getURL: @escaping (URL) -> Future<UserDetail> = getU
         )
     }
 }
+
