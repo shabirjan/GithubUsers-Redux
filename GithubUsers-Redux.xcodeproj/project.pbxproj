@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9F031ABD206D18B7000C578B /* UserListStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031ABC206D18B7000C578B /* UserListStateTest.swift */; };
 		9F031AD4206D63B2000C578B /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031AD3206D63B2000C578B /* UserDetail.swift */; };
+		9F031AD9206D645A000C578B /* DidSelectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031AD7206D645A000C578B /* DidSelectUser.swift */; };
+		9F031ADA206D645A000C578B /* DidLoadUserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031AD8206D645A000C578B /* DidLoadUserDetail.swift */; };
 		9F4421DF206BA86D00406BE5 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421DE206BA86D00406BE5 /* Command.swift */; };
 		9F4421E1206BA88400406BE5 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E0206BA88400406BE5 /* ResultFunction.swift */; };
 		9F4421E3206BA8A900406BE5 /* FutureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E2206BA8A900406BE5 /* FutureMap.swift */; };
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		9F031ABC206D18B7000C578B /* UserListStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListStateTest.swift; sourceTree = "<group>"; };
 		9F031AD3206D63B2000C578B /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		9F031AD7206D645A000C578B /* DidSelectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidSelectUser.swift; sourceTree = "<group>"; };
+		9F031AD8206D645A000C578B /* DidLoadUserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidLoadUserDetail.swift; sourceTree = "<group>"; };
 		9F4421DE206BA86D00406BE5 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		9F4421E0206BA88400406BE5 /* ResultFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
 		9F4421E2206BA8A900406BE5 /* FutureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureMap.swift; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 		9F6C193E20669F7000D988EF /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				9F031AD8206D645A000C578B /* DidLoadUserDetail.swift */,
+				9F031AD7206D645A000C578B /* DidSelectUser.swift */,
 				9F6C193F20669F7900D988EF /* Action.swift */,
 				9F4421EB206BAC4200406BE5 /* DidLoadUsers.swift */,
 			);
@@ -387,10 +393,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F031AD9206D645A000C578B /* DidSelectUser.swift in Sources */,
 				9F4421EC206BAC4200406BE5 /* DidLoadUsers.swift in Sources */,
 				9F6C193620669D4A00D988EF /* AppState.swift in Sources */,
 				9F6C190520666FAE00D988EF /* UserListViewController.swift in Sources */,
 				9F6C194A2067847900D988EF /* Dispatcher.swift in Sources */,
+				9F031ADA206D645A000C578B /* DidLoadUserDetail.swift in Sources */,
 				9F6C193D20669ECA00D988EF /* User.swift in Sources */,
 				9F4421EE206BACC900406BE5 /* NetworkService.swift in Sources */,
 				9F6C193820669D8D00D988EF /* UserListState.swift in Sources */,
