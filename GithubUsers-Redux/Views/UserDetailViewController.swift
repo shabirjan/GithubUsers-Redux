@@ -127,7 +127,7 @@ extension UserDetailViewController {
             switch state.selectedUser {
             case .none: self?.props = Props.initial
             case .loading(let user): self?.props = Props(name: user.userName, onDestroy: cancelObserving, state: .loading)
-            case .loaded(let userDetail): self?.props = Props(name: userDetail.name ?? "N/A" , onDestroy: cancelObserving, state: .user(Props.User(name: userDetail.name ?? "N/A", userEmail: userDetail.email ?? "N/A", userCompany: userDetail.company ?? "N/A", userLocation: userDetail.location ?? "N/A", userFollowers: userDetail.userFollowers, userFollowing: userDetail.userFollowing, publicRepos: userDetail.publicRepos, publicGists: userDetail.publicGists)))
+//            case .loaded(let userDetail): self?.props = Props(name: userDetail.name ?? "N/A" , onDestroy: cancelObserving, state: .user(Props.User(name: userDetail.name ?? "N/A", userEmail: userDetail.email ?? "N/A", userCompany: userDetail.company ?? "N/A", userLocation: userDetail.location ?? "N/A", userFollowers: userDetail.userFollowers, userFollowing: userDetail.userFollowing, publicRepos: userDetail.publicRepos, publicGists: userDetail.publicGists)))
             }
             
         }
