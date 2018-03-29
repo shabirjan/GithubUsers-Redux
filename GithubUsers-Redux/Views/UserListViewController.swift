@@ -79,7 +79,10 @@ extension UserListViewController {
                     fatalError("Cannot handle selected vc: \(vc)")
                 }
                 vc.title = user.userName
-                
+                store.dispatch(command: selectUser(user: user))
+                /// Connecting controller to store.
+                userDetails.connect(to: store)
+
             }
             return Props.User(name: user.userName, select: select)
         }
