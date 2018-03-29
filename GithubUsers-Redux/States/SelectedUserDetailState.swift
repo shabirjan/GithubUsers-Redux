@@ -11,6 +11,8 @@ import Foundation
 enum SelectedUserDetailState {
     case none
     case loading(User)
+    case loaded(UserDetail)
+    
     static let initial = SelectedUserDetailState.none
 }
 

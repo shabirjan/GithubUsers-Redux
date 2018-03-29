@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F031ABD206D18B7000C578B /* UserListStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031ABC206D18B7000C578B /* UserListStateTest.swift */; };
+		9F031AD4206D63B2000C578B /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F031AD3206D63B2000C578B /* UserDetail.swift */; };
 		9F4421DF206BA86D00406BE5 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421DE206BA86D00406BE5 /* Command.swift */; };
 		9F4421E1206BA88400406BE5 /* ResultFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E0206BA88400406BE5 /* ResultFunction.swift */; };
 		9F4421E3206BA8A900406BE5 /* FutureMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4421E2206BA8A900406BE5 /* FutureMap.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		9F031ABC206D18B7000C578B /* UserListStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListStateTest.swift; sourceTree = "<group>"; };
+		9F031AD3206D63B2000C578B /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		9F4421DE206BA86D00406BE5 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		9F4421E0206BA88400406BE5 /* ResultFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFunction.swift; sourceTree = "<group>"; };
 		9F4421E2206BA8A900406BE5 /* FutureMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureMap.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 		9F6C193B20669EAE00D988EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F031AD3206D63B2000C578B /* UserDetail.swift */,
 				9F6C193C20669ECA00D988EF /* User.swift */,
 			);
 			path = Models;
@@ -391,6 +394,7 @@
 				9F6C193D20669ECA00D988EF /* User.swift in Sources */,
 				9F4421EE206BACC900406BE5 /* NetworkService.swift in Sources */,
 				9F6C193820669D8D00D988EF /* UserListState.swift in Sources */,
+				9F031AD4206D63B2000C578B /* UserDetail.swift in Sources */,
 				9F6C194B2067847900D988EF /* Store.swift in Sources */,
 				9F6C194020669F7900D988EF /* Action.swift in Sources */,
 				9F6C194E206785C700D988EF /* Future.swift in Sources */,
