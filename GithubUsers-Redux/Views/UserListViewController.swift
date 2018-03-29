@@ -80,7 +80,7 @@ extension UserListViewController {
                 }
                 vc.title = user.userName
                 
-               // store.dispatch(command: selectUser(user: user))
+                store.dispatch(command: selectUser(user: user))
                 /// Connecting controller to store.
                 userDetails.connect(to: store)
                 
